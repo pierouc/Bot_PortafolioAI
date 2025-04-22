@@ -30,7 +30,7 @@ def nodo_4_responder_dudas(state: dict) -> dict:
 
         else:
             res = agent_chat.invoke(
-                # {'messages': [msg],}, 
+                {'messages': [msg],}, 
                 {'configurable': {'thread_id': '111'}}
             )    
             print()
